@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+   height: 100vh; 
+  background-image: url("bank-mid.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #ddd;
+}
+.bg {
+  height: 100vh; 
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 1.5rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+}
+nav {
+  width: 45%;
+  padding-top: 0.6rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li a button {
+  width: 150px;
+  height: 40px;
+  background-color: rgba(218, 75, 75, 0.623);
+}
+.section {
+  width: 100%;
+  height: 500px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
+footer {
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  
+}
+footer p {
+  padding-top: 3.8rem;
+  font-weight: bold;
+  color: black;
+}
+.text {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  margin: 1rem auto 0 auto;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  color: black;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 13px;
+}
+tr {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
+table a {
+  text-decoration: none;
+  border: 1px solid rgb(22, 207, 121);
+  color: rgb(22, 207, 121);
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+table a:hover {
+  background-color: rgb(22, 207, 121);
+  color: white;
+}
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto 0 auto;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.input {
+  margin-bottom: 2rem;
+  height: 2.5rem;
+  outline: none;
+  padding-left: 10px;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  border: 2px solid grey;
+}
+button {
+  height: 3rem;
+  width: 110px;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: rgb(255, 69, 0);
+  /*color: white;*/
+  border: none;
+}
+button:hover {
+  background-color: #777E8B;
+  transform: scale(1.1);
+  color: black;
+  transition: 0.5s;
+}
